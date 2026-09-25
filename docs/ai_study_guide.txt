@@ -1,0 +1,16 @@
+=== AI & Machine Learning Reference Notes ===
+
+1. C Programming Basics
+- Pointers store memory addresses of variables. Example: int *ptr = &val;
+- Memory Management: malloc() allocates dynamic memory, free() releases memory to prevent memory leaks.
+- Structures: struct key-value pair definitions for custom data structures in systems programming.
+
+2. Retrieval-Augmented Generation (RAG) Architecture
+- Chunking Strategy: Splitting long documents using RecursiveCharacterTextSplitter with chunk size 500 and overlap 50.
+- Embeddings: converting text into high-dimensional vector representations using models like sentence-transformers/all-MiniLM-L6-v2.
+- Vector Store: Storing and querying vector similarity using cosine distance in ChromaDB.
+
+3. Cloud & Edge AI Infrastructure
+- AWS AI Services: Amazon Bedrock for foundation models, SageMaker for custom model deployment.
+- Autonomous Systems: TIER IV's Autoware open-source software stack for self-driving vehicle data engineering pipelines.
+- Microcontrollers & IoT: Connecting edge microcontrollers to AI cloud backends for real-time sensor processing.

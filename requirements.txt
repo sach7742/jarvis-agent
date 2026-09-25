@@ -1,0 +1,9 @@
+openai>=1.0.0
+speechrecognition
+pyttsx3
+python-dotenv
+chromadb
+langchain-community
+langchain-text-splitters
+langchain-openai
+pypdf
